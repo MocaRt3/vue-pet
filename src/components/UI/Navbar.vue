@@ -5,6 +5,7 @@
 			<naw class="nawbar__navigation navigation">
 				<my-button @click="$router.push('/posts')" class="navigation__item">Посты</my-button>
 				<my-button @click="$router.push('/about')" class="navigation__item">Информация</my-button>
+				<my-button @click="$router.push('/store')" class="navigation__item">store</my-button>
 			</naw>
 		</div>
 	</div>
